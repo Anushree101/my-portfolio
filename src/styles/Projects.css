@@ -1,0 +1,37 @@
+.projects {
+    text-align: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  .project-card {
+    background: linear-gradient(135deg, #6a0dad, #ff00ff);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4a0072;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background 0.3s;
+  }
+  
+  .project-card a:hover {
+    background-color: #ff00ff;
+  }
+  
+  .slick-prev, .slick-next {
+    color: white;
+  }
+  

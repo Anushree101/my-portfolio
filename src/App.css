@@ -1,0 +1,14 @@
+body {
+  background-color: #2a004f;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.section {
+  padding: 50px;
+}
+
+a {
+  color: #ff00ff;
+}
