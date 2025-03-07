@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../styles/Home.css";
-import profilePic from "../assets/profile.jpg"; // Add your photo in src/assets folder
+import profilePic from "../assets/profile.jpg"; // Add your profile picture here
 
 const Home = () => {
   return (
     <motion.div 
       className="home"
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
       <img src={profilePic} alt="Profile" className="profile-pic" />

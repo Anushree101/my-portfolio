@@ -1,30 +1,29 @@
 .about {
-    text-align: center;
-    padding: 50px;
-    color: white;
-  }
-  
-  .skills-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin-top: 20px;
-  }
-  
-  .skill {
-    width: 60%;
-    text-align: left;
-  }
-  
-  .skill p {
-    margin: 5px 0;
-    font-weight: bold;
-  }
-  
-  .skill-bar {
-    height: 10px;
-    background: linear-gradient(90deg, #ff00ff, #800080);
-    border-radius: 5px;
-  }
-  
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill {
+  width: 60%;
+  text-align: left;
+}
+
+.skill p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.skill-bar {
+  height: 10px;
+  background: linear-gradient(90deg, #ff00ff, #800080);
+  border-radius: 5px;
+}

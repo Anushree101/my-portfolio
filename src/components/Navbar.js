@@ -1,16 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./../styles/Navbar.css";
+import { motion } from "framer-motion";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <motion.nav 
+      className="navbar"
+      initial={{ y: -50, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8 }}
+    >
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/projects">Projects</Link>
       <Link to="/experience">Experience</Link>
+      <Link to="/skills">Skills</Link>
       <Link to="/contact">Contact</Link>
-    </nav>
+    </motion.nav>
   );
 };
 
